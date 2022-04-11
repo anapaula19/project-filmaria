@@ -13,7 +13,8 @@ ul{
 ul li{
     padding: 0;
     list-style: none;
-    min-width: 600px;
+    max-width: 600px;
+    min-width: 300px;
     display: flex;
     align-items: center;
     justify-content: space-between;
