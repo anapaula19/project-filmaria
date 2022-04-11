@@ -32,7 +32,7 @@ export default function Filme(){
             console.log('COMPONENTE DESMONTADO')
         }*/
 
-    }, [id]);
+    }, [id, navigate]);
 
     function salvaFilme(){
         
