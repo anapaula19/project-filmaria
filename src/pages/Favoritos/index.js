@@ -32,7 +32,9 @@ export default function Favoritos(){
                 {filmes.map((item) => {
                     return(
                         <li key={item.id}>
-                            <span>{item.nome}</span>
+                            <div>
+                                <span>{item.nome}</span>
+                            </div>
 
                             <div>
                                 <Link className="link" to={`/filme/${item.id}`}>Ver Detalhes</Link>
